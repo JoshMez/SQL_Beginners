@@ -1,0 +1,36 @@
+					Primary Key 
+Column or SET of columns -- Which uniquely identies a column within  table. 
+Primary HAS TO BE UNIQUE. 
+Must not be NULL. 
+A table can only have one priamry key. 
+Need to learn how to define a priamry key. 
+
+
+******************************************************************************************* 
+      d888888b    Belive in yourself  d888888b
+   d888    8888b                   d888888   888b
+ d88    88  898888b               d8888  888     88b
+d8P        88888888b             d88888888888     b8b
+88        8888888888             88888888888       88
+88       88888888888             8888888888        88
+98b     88888888888P             988888888        d8P
+ 988     888  8888P      _=_      9888898  88    88P
+   9888   888888P      q(-_-)p       98888    888P
+      9888888P         '_) (_`         9888888P
+         88            /__/  \            88
+         88          _(<_   / )_          88
+        d88b        (__\_\_|_/__)        d88b
+
+****************************************************************************************
+
+				Foreign Key 
+Used to link table together. 
+Colunm which values are the same as another tables primary key. 
+Table with the primary key is called the reference, parent table. 
+Table with foreign key ----> called Child table. 
+A table can have multiple foreign keys inside it.  
+
+////////////////////////////////////FINISHED\\\\\\\\\\/\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+*****************************************************************************************
+			Peace		
+                   	 
