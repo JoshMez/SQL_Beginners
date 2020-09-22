@@ -1,0 +1,73 @@
+Aim: To learn about the different data that can be held in databases. 
+Data types should be stated when they are being used.  
+
+#Numeric Data Types 
+#1)INT 
+This is basically for when we need to store whole numbers. 
+Postive and Negative Numbers. 
+
+#2)FLOAT(M,D) ----> Decimal numbers(approximate) 
+Storing height. example 
+*Need to define HOW LONG THE NUMBER IS. 
+*For example if you want store the height 1.53 metres. 
+*The lenght would be 3. That represented by m 
+*Need to define how many number go after the decimal point. Represented by 2, this represented by d 
+*Float includes rounding.
+
+DECIMAL(M,D) --> Decimal numbers(precise)
+*Does not allow rounding. 
+*Needs to be precise, as the creator has specified. 
+*You need to be aware of how everything is done. 
+	
+
+			Non-Numeric Data-Types. 
+CHAR(N) 
+*Fixed in length charecters. 
+*(N), represents the numbers. 
+*When will this come in handy, think about the curreny such as AUS. 
+
+VARCHAR(N) 
+*Think of this one as having a range. 
+*So if you put 30, then the the max number of charecter you hold is 30. 
+*If it is below 30, that all good. 
+*Just as long as its not below the 30 charecters. 
+
+ENUM('M','F') 
+*Value from a defined list. 
+*You give this data type a value. 
+*And the data type you give it will only be able to produce it. 
+*Define the values that the column can take.
+
+BOOLEAN 
+*)True and False values. 
+
+
+				Date and Time types. 
+DATE 
+Date(YYYY-MM-DD) 
+
+DATETIME 
+Date and Time (YYYY-MM-DD-HH-MM-SS) 
+
+TIME 
+Time(HHH-MM-SS)
+
+YEAR 
+Year(YYYY) 
+
+ 
+        _-_
+       |(_)|
+        |||
+        |||
+        |||
+        |||
+        |||
+  ^     |^|     ^
+< ^ >   <+>   < ^ >
+ | |    |||    | |
+  \ \__/ | \__/ /
+    \,__.|.__,/
+        (_)
+
+(The End)

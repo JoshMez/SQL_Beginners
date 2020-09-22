@@ -29,4 +29,45 @@ price DECIMAL(3,2) #You last colunm will not have a comma at the end. This signi
 );   
 
 #Showing if the table has been created. 
+SHOW TABLES;  
+
+
+#Creating a customers tabele. 
+CREATE TABLE CUSTOMER( 
+	
+    id INT AUTO_INCREMENT PRIMARY KEY , 
+    Name VARCHAR(30), 
+    Last_Name VARCHAR(30),
+	Gender ENUM('M', 'F'), 
+    Phone_Number VARCHAR(11)
+
+); 
+
+SHOW TABLES;  
+
+#Creating a product table 
+CREATE TABLE Orders ( 
+	id INT AUTO_INCREMENT PRIMARY KEY, 
+    product_id INT, 
+    customer_id INT, 
+    Order_time DATETIME,
+	#Setting the foreign key.  
+    #Look at the structure and note the keywords that have been put in place. 
+    #FOREINGN_KEY, REFERENCES. 
+    FOREIGN KEY (product_id) REFERENCES products(id), 
+    FOREIGN KEY (customer_id) REFERENCES CUSTOMER(id)
+
+);  
+
+#Just make sure that you are in the table that you want to working with. 
+#This is very important to note that.  
+
+
+#We want to use the coffee data that was created in the previous First_Table.sql 
+USE coffee_store;  
+
+#Showing the table from the coffee store data base. 
 SHOW TABLES; 
+
+#Want to use products table. 
+SELECT * FROM prodcuts;
